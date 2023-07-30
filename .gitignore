@@ -1,0 +1,7 @@
+*.log
+*.bsp
+*.prt
+*.vmx
+*.lin
+hammer++/
+OBJ/

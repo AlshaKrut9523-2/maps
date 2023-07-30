@@ -1,0 +1,3811 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8864"
+	"mapversion" "10"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "0"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "32"
+}
+palette_plus
+{
+	"color0" "255 255 255"
+	"color1" "255 255 255"
+	"color2" "255 255 255"
+	"color3" "255 255 255"
+	"color4" "255 255 255"
+	"color5" "255 255 255"
+	"color6" "255 255 255"
+	"color7" "255 255 255"
+	"color8" "255 255 255"
+	"color9" "255 255 255"
+	"color10" "255 255 255"
+	"color11" "255 255 255"
+	"color12" "255 255 255"
+	"color13" "255 255 255"
+	"color14" "255 255 255"
+	"color15" "255 255 255"
+}
+colorcorrection_plus
+{
+	"name0" ""
+	"weight0" "1"
+	"name1" ""
+	"weight1" "1"
+	"name2" ""
+	"weight2" "1"
+	"name3" ""
+	"weight3" "1"
+}
+light_plus
+{
+	"samples_sun" "6"
+	"samples_ambient" "40"
+	"samples_vis" "256"
+	"texlight" ""
+	"incremental_delay" "0"
+	"bake_dist" "1024"
+	"radius_scale" "1"
+	"brightness_scale" "1"
+	"ao_scale" "0"
+	"bounced" "1"
+	"incremental" "1"
+	"supersample" "0"
+	"bleed_hack" "1"
+	"soften_cosine" "0"
+	"debug" "0"
+	"cubemap" "1"
+	"hdr" "0"
+}
+bgimages_plus
+{
+}
+world
+{
+	"id" "1"
+	"mapversion" "10"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_day01_01"
+	solid
+	{
+		"id" "2"
+		side
+		{
+			"id" "1"
+			"plane" "(-1729 3838 64) (7597 3838 64) (7597 -490 64)"
+			vertices_plus
+			{
+				"v" "-1729 3838 64"
+				"v" "7597 3838 64"
+				"v" "7597 -490 64"
+				"v" "-1729 -490 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/GRASS"
+			"uaxis" "[1 0 0 28.8003] 0.3125"
+			"vaxis" "[0 -1 0 -32] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(-1729 -490 24) (7597 -490 24) (7597 3838 24)"
+			vertices_plus
+			{
+				"v" "-1729 -490 24"
+				"v" "7597 -490 24"
+				"v" "7597 3838 24"
+				"v" "-1729 3838 24"
+			}
+			"material" "MINECRAFT_ORIGINAL/GRASS"
+			"uaxis" "[-1 0 0 -28.8003] 0.3125"
+			"vaxis" "[0 -1 0 -32] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(-1729 3838 64) (-1729 -490 64) (-1729 -490 24)"
+			vertices_plus
+			{
+				"v" "-1729 3838 64"
+				"v" "-1729 -490 64"
+				"v" "-1729 -490 24"
+				"v" "-1729 3838 24"
+			}
+			"material" "MINECRAFT_ORIGINAL/GRASS"
+			"uaxis" "[0 -1 0 -32] 0.3125"
+			"vaxis" "[0 0 -1 76.8] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(7597 3838 24) (7597 -490 24) (7597 -490 64)"
+			vertices_plus
+			{
+				"v" "7597 3838 24"
+				"v" "7597 -490 24"
+				"v" "7597 -490 64"
+				"v" "7597 3838 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/GRASS"
+			"uaxis" "[0 1 0 32] 0.3125"
+			"vaxis" "[0 0 -1 76.8] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(7597 3838 64) (-1729 3838 64) (-1729 3838 24)"
+			vertices_plus
+			{
+				"v" "7597 3838 64"
+				"v" "-1729 3838 64"
+				"v" "-1729 3838 24"
+				"v" "7597 3838 24"
+			}
+			"material" "MINECRAFT_ORIGINAL/GRASS"
+			"uaxis" "[-1 0 0 -28.8003] 0.3125"
+			"vaxis" "[0 0 -1 76.8] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(7597 -490 24) (-1729 -490 24) (-1729 -490 64)"
+			vertices_plus
+			{
+				"v" "7597 -490 24"
+				"v" "-1729 -490 24"
+				"v" "-1729 -490 64"
+				"v" "7597 -490 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/GRASS"
+			"uaxis" "[1 0 0 28.8003] 0.3125"
+			"vaxis" "[0 0 -1 76.8] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 240 217"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "3"
+		side
+		{
+			"id" "7"
+			"plane" "(-644 183 84) (276 183 84) (276 143 84)"
+			vertices_plus
+			{
+				"v" "-644 183 84"
+				"v" "276 183 84"
+				"v" "276 143 84"
+				"v" "-644 143 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 -1 0 73.6] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "8"
+			"plane" "(-644 143 64) (276 143 64) (276 183 64)"
+			vertices_plus
+			{
+				"v" "-644 143 64"
+				"v" "276 143 64"
+				"v" "276 183 64"
+				"v" "-644 183 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 -1 0 73.6] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "9"
+			"plane" "(-644 183 84) (-644 143 84) (-644 143 64)"
+			vertices_plus
+			{
+				"v" "-644 183 84"
+				"v" "-644 143 84"
+				"v" "-644 143 64"
+				"v" "-644 183 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[0 1 0 -73.6] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "10"
+			"plane" "(276 183 64) (276 143 64) (276 143 84)"
+			vertices_plus
+			{
+				"v" "276 183 64"
+				"v" "276 143 64"
+				"v" "276 143 84"
+				"v" "276 183 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[0 1 0 -73.6] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "11"
+			"plane" "(276 183 84) (-644 183 84) (-644 183 64)"
+			vertices_plus
+			{
+				"v" "276 183 84"
+				"v" "-644 183 84"
+				"v" "-644 183 64"
+				"v" "276 183 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "12"
+			"plane" "(276 143 64) (-644 143 64) (-644 143 84)"
+			vertices_plus
+			{
+				"v" "276 143 64"
+				"v" "-644 143 64"
+				"v" "-644 143 84"
+				"v" "276 143 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 172 145"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "15"
+		side
+		{
+			"id" "24"
+			"plane" "(236 223 84) (6316 223 84) (6316 183 84)"
+			vertices_plus
+			{
+				"v" "236 223 84"
+				"v" "6316 223 84"
+				"v" "6316 183 84"
+				"v" "236 183 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 -1 0 73.6] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "23"
+			"plane" "(236 183 64) (6316 183 64) (6316 223 64)"
+			vertices_plus
+			{
+				"v" "236 183 64"
+				"v" "6316 183 64"
+				"v" "6316 223 64"
+				"v" "236 223 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 -1 0 73.6] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "22"
+			"plane" "(236 223 84) (236 183 84) (236 183 64)"
+			vertices_plus
+			{
+				"v" "236 223 84"
+				"v" "236 183 84"
+				"v" "236 183 64"
+				"v" "236 223 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[0 1 0 -73.6] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "21"
+			"plane" "(6316 223 64) (6316 183 64) (6316 183 84)"
+			vertices_plus
+			{
+				"v" "6316 223 64"
+				"v" "6316 183 64"
+				"v" "6316 183 84"
+				"v" "6316 223 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[0 1 0 -73.6] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "20"
+			"plane" "(6316 223 84) (236 223 84) (236 223 64)"
+			vertices_plus
+			{
+				"v" "6316 223 84"
+				"v" "236 223 84"
+				"v" "236 223 64"
+				"v" "6316 223 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "19"
+			"plane" "(6316 183 64) (236 183 64) (236 183 84)"
+			vertices_plus
+			{
+				"v" "6316 183 64"
+				"v" "236 183 64"
+				"v" "236 183 84"
+				"v" "6316 183 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 172 145"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "24"
+		side
+		{
+			"id" "36"
+			"plane" "(-684 263 84) (-644 263 84) (-644 183 84)"
+			vertices_plus
+			{
+				"v" "-684 263 84"
+				"v" "-644 263 84"
+				"v" "-644 183 84"
+				"v" "-684 183 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 -115.2] 0.3125"
+			"vaxis" "[0 -1 0 73.6] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "35"
+			"plane" "(-684 183 64) (-644 183 64) (-644 263 64)"
+			vertices_plus
+			{
+				"v" "-684 183 64"
+				"v" "-644 183 64"
+				"v" "-644 263 64"
+				"v" "-684 263 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 -115.2] 0.3125"
+			"vaxis" "[0 -1 0 73.6] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "34"
+			"plane" "(-684 263 84) (-684 183 84) (-684 183 64)"
+			vertices_plus
+			{
+				"v" "-684 263 84"
+				"v" "-684 183 84"
+				"v" "-684 183 64"
+				"v" "-684 263 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[0 1 0 -73.6] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "33"
+			"plane" "(-644 263 64) (-644 183 64) (-644 183 84)"
+			vertices_plus
+			{
+				"v" "-644 263 64"
+				"v" "-644 183 64"
+				"v" "-644 183 84"
+				"v" "-644 263 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[0 1 0 -73.6] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "32"
+			"plane" "(-644 263 84) (-684 263 84) (-684 263 64)"
+			vertices_plus
+			{
+				"v" "-644 263 84"
+				"v" "-684 263 84"
+				"v" "-684 263 64"
+				"v" "-644 263 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 -115.2] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "31"
+			"plane" "(-644 183 64) (-684 183 64) (-684 183 84)"
+			vertices_plus
+			{
+				"v" "-644 183 64"
+				"v" "-684 183 64"
+				"v" "-684 183 84"
+				"v" "-644 183 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 -115.2] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 172 145"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "40"
+		side
+		{
+			"id" "48"
+			"plane" "(-764 263 84) (-684 263 84) (-684 223 84)"
+			vertices_plus
+			{
+				"v" "-764 263 84"
+				"v" "-684 263 84"
+				"v" "-684 223 84"
+				"v" "-764 223 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 -1 0 73.6] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "47"
+			"plane" "(-764 223 64) (-684 223 64) (-684 263 64)"
+			vertices_plus
+			{
+				"v" "-764 223 64"
+				"v" "-684 223 64"
+				"v" "-684 263 64"
+				"v" "-764 263 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 -1 0 73.6] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "46"
+			"plane" "(-764 263 84) (-764 223 84) (-764 223 64)"
+			vertices_plus
+			{
+				"v" "-764 263 84"
+				"v" "-764 223 84"
+				"v" "-764 223 64"
+				"v" "-764 263 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[0 1 0 -73.6] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "45"
+			"plane" "(-684 263 64) (-684 223 64) (-684 223 84)"
+			vertices_plus
+			{
+				"v" "-684 263 64"
+				"v" "-684 223 64"
+				"v" "-684 223 84"
+				"v" "-684 263 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[0 1 0 -73.6] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "44"
+			"plane" "(-684 263 84) (-764 263 84) (-764 263 64)"
+			vertices_plus
+			{
+				"v" "-684 263 84"
+				"v" "-764 263 84"
+				"v" "-764 263 64"
+				"v" "-684 263 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "43"
+			"plane" "(-684 223 64) (-764 223 64) (-764 223 84)"
+			vertices_plus
+			{
+				"v" "-684 223 64"
+				"v" "-764 223 64"
+				"v" "-764 223 84"
+				"v" "-684 223 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 172 145"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "44"
+		side
+		{
+			"id" "60"
+			"plane" "(-804 303 84) (-764 303 84) (-764 263 84)"
+			vertices_plus
+			{
+				"v" "-804 303 84"
+				"v" "-764 303 84"
+				"v" "-764 263 84"
+				"v" "-804 263 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 -1 0 73.6] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "59"
+			"plane" "(-804 263 64) (-764 263 64) (-764 303 64)"
+			vertices_plus
+			{
+				"v" "-804 263 64"
+				"v" "-764 263 64"
+				"v" "-764 303 64"
+				"v" "-804 303 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 -1 0 73.6] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "58"
+			"plane" "(-804 303 84) (-804 263 84) (-804 263 64)"
+			vertices_plus
+			{
+				"v" "-804 303 84"
+				"v" "-804 263 84"
+				"v" "-804 263 64"
+				"v" "-804 303 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[0 1 0 -73.6] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "57"
+			"plane" "(-764 303 64) (-764 263 64) (-764 263 84)"
+			vertices_plus
+			{
+				"v" "-764 303 64"
+				"v" "-764 263 64"
+				"v" "-764 263 84"
+				"v" "-764 303 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[0 1 0 -73.6] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "56"
+			"plane" "(-764 303 84) (-804 303 84) (-804 303 64)"
+			vertices_plus
+			{
+				"v" "-764 303 84"
+				"v" "-804 303 84"
+				"v" "-804 303 64"
+				"v" "-764 303 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "55"
+			"plane" "(-764 263 64) (-804 263 64) (-804 263 84)"
+			vertices_plus
+			{
+				"v" "-764 263 64"
+				"v" "-804 263 64"
+				"v" "-804 263 84"
+				"v" "-764 263 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 172 145"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "47"
+		side
+		{
+			"id" "72"
+			"plane" "(-964 2703 84) (-844 2703 84) (-844 2663 84)"
+			vertices_plus
+			{
+				"v" "-964 2703 84"
+				"v" "-844 2703 84"
+				"v" "-844 2663 84"
+				"v" "-964 2663 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 -1 0 -54.3997] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "71"
+			"plane" "(-964 2663 64) (-844 2663 64) (-844 2703 64)"
+			vertices_plus
+			{
+				"v" "-964 2663 64"
+				"v" "-844 2663 64"
+				"v" "-844 2703 64"
+				"v" "-964 2703 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 -1 0 -54.3997] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "70"
+			"plane" "(-964 2703 84) (-964 2663 84) (-964 2663 64)"
+			vertices_plus
+			{
+				"v" "-964 2703 84"
+				"v" "-964 2663 84"
+				"v" "-964 2663 64"
+				"v" "-964 2703 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[0 1 0 54.3997] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "69"
+			"plane" "(-844 2703 64) (-844 2663 64) (-844 2663 84)"
+			vertices_plus
+			{
+				"v" "-844 2703 64"
+				"v" "-844 2663 64"
+				"v" "-844 2663 84"
+				"v" "-844 2703 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[0 1 0 54.3997] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "68"
+			"plane" "(-844 2703 84) (-964 2703 84) (-964 2703 64)"
+			vertices_plus
+			{
+				"v" "-844 2703 84"
+				"v" "-964 2703 84"
+				"v" "-964 2703 64"
+				"v" "-844 2703 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "67"
+			"plane" "(-844 2663 64) (-964 2663 64) (-964 2663 84)"
+			vertices_plus
+			{
+				"v" "-844 2663 64"
+				"v" "-964 2663 64"
+				"v" "-964 2663 84"
+				"v" "-844 2663 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 172 145"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "49"
+		side
+		{
+			"id" "84"
+			"plane" "(-924 383 84) (-884 383 84) (-884 343 84)"
+			vertices_plus
+			{
+				"v" "-924 383 84"
+				"v" "-884 383 84"
+				"v" "-884 343 84"
+				"v" "-924 343 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 -1 0 73.6] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "83"
+			"plane" "(-924 343 64) (-884 343 64) (-884 383 64)"
+			vertices_plus
+			{
+				"v" "-924 343 64"
+				"v" "-884 343 64"
+				"v" "-884 383 64"
+				"v" "-924 383 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 -1 0 73.6] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "82"
+			"plane" "(-924 383 84) (-924 343 84) (-924 343 64)"
+			vertices_plus
+			{
+				"v" "-924 383 84"
+				"v" "-924 343 84"
+				"v" "-924 343 64"
+				"v" "-924 383 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[0 1 0 -73.6] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "81"
+			"plane" "(-884 383 64) (-884 343 64) (-884 343 84)"
+			vertices_plus
+			{
+				"v" "-884 383 64"
+				"v" "-884 343 64"
+				"v" "-884 343 84"
+				"v" "-884 383 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[0 1 0 -73.6] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "80"
+			"plane" "(-884 383 84) (-924 383 84) (-924 383 64)"
+			vertices_plus
+			{
+				"v" "-884 383 84"
+				"v" "-924 383 84"
+				"v" "-924 383 64"
+				"v" "-884 383 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "79"
+			"plane" "(-884 343 64) (-924 343 64) (-924 343 84)"
+			vertices_plus
+			{
+				"v" "-884 343 64"
+				"v" "-924 343 64"
+				"v" "-924 343 84"
+				"v" "-884 343 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 172 145"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "51"
+		side
+		{
+			"id" "96"
+			"plane" "(-964 423 84) (-924 423 84) (-924 383 84)"
+			vertices_plus
+			{
+				"v" "-964 423 84"
+				"v" "-924 423 84"
+				"v" "-924 383 84"
+				"v" "-964 383 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 -1 0 73.6] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "95"
+			"plane" "(-964 383 64) (-924 383 64) (-924 423 64)"
+			vertices_plus
+			{
+				"v" "-964 383 64"
+				"v" "-924 383 64"
+				"v" "-924 423 64"
+				"v" "-964 423 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 -1 0 73.6] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "94"
+			"plane" "(-964 423 84) (-964 383 84) (-964 383 64)"
+			vertices_plus
+			{
+				"v" "-964 423 84"
+				"v" "-964 383 84"
+				"v" "-964 383 64"
+				"v" "-964 423 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[0 1 0 -73.6] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "93"
+			"plane" "(-924 423 64) (-924 383 64) (-924 383 84)"
+			vertices_plus
+			{
+				"v" "-924 423 64"
+				"v" "-924 383 64"
+				"v" "-924 383 84"
+				"v" "-924 423 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[0 1 0 -73.6] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "92"
+			"plane" "(-924 423 84) (-964 423 84) (-964 423 64)"
+			vertices_plus
+			{
+				"v" "-924 423 84"
+				"v" "-964 423 84"
+				"v" "-964 423 64"
+				"v" "-924 423 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "91"
+			"plane" "(-924 383 64) (-964 383 64) (-964 383 84)"
+			vertices_plus
+			{
+				"v" "-924 383 64"
+				"v" "-964 383 64"
+				"v" "-964 383 84"
+				"v" "-924 383 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 172 145"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "53"
+		side
+		{
+			"id" "108"
+			"plane" "(-1004 2703 84) (-964 2703 84) (-964 423 84)"
+			vertices_plus
+			{
+				"v" "-1004 2703 84"
+				"v" "-964 2703 84"
+				"v" "-964 423 84"
+				"v" "-1004 423 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 -1 0 73.6] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "107"
+			"plane" "(-1004 423 64) (-964 423 64) (-964 2703 64)"
+			vertices_plus
+			{
+				"v" "-1004 423 64"
+				"v" "-964 423 64"
+				"v" "-964 2703 64"
+				"v" "-1004 2703 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 -1 0 73.6] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "106"
+			"plane" "(-1004 2703 84) (-1004 423 84) (-1004 423 64)"
+			vertices_plus
+			{
+				"v" "-1004 2703 84"
+				"v" "-1004 423 84"
+				"v" "-1004 423 64"
+				"v" "-1004 2703 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[0 1 0 -73.6] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "105"
+			"plane" "(-964 2703 64) (-964 423 64) (-964 423 84)"
+			vertices_plus
+			{
+				"v" "-964 2703 64"
+				"v" "-964 423 64"
+				"v" "-964 423 84"
+				"v" "-964 2703 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[0 1 0 -73.6] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "104"
+			"plane" "(-964 2703 84) (-1004 2703 84) (-1004 2703 64)"
+			vertices_plus
+			{
+				"v" "-964 2703 84"
+				"v" "-1004 2703 84"
+				"v" "-1004 2703 64"
+				"v" "-964 2703 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "103"
+			"plane" "(-964 423 64) (-1004 423 64) (-1004 423 84)"
+			vertices_plus
+			{
+				"v" "-964 423 64"
+				"v" "-1004 423 64"
+				"v" "-1004 423 84"
+				"v" "-964 423 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 172 145"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "71"
+		side
+		{
+			"id" "120"
+			"plane" "(-884 2663 84) (-844 2663 84) (-844 503 84)"
+			vertices_plus
+			{
+				"v" "-884 2663 84"
+				"v" "-844 2663 84"
+				"v" "-844 503 84"
+				"v" "-884 503 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 -1 0 73.6] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "119"
+			"plane" "(-884 503 64) (-844 503 64) (-844 2663 64)"
+			vertices_plus
+			{
+				"v" "-884 503 64"
+				"v" "-844 503 64"
+				"v" "-844 2663 64"
+				"v" "-884 2663 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 -1 0 73.6] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "118"
+			"plane" "(-884 2663 84) (-884 503 84) (-884 503 64)"
+			vertices_plus
+			{
+				"v" "-884 2663 84"
+				"v" "-884 503 84"
+				"v" "-884 503 64"
+				"v" "-884 2663 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[0 1 0 -73.6] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "117"
+			"plane" "(-844 2663 64) (-844 503 64) (-844 503 84)"
+			vertices_plus
+			{
+				"v" "-844 2663 64"
+				"v" "-844 503 64"
+				"v" "-844 503 84"
+				"v" "-844 2663 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[0 1 0 -73.6] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "116"
+			"plane" "(-844 2663 84) (-884 2663 84) (-884 2663 64)"
+			vertices_plus
+			{
+				"v" "-844 2663 84"
+				"v" "-884 2663 84"
+				"v" "-884 2663 64"
+				"v" "-844 2663 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "115"
+			"plane" "(-844 503 64) (-884 503 64) (-884 503 84)"
+			vertices_plus
+			{
+				"v" "-844 503 64"
+				"v" "-884 503 64"
+				"v" "-884 503 84"
+				"v" "-844 503 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 172 145"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "83"
+		side
+		{
+			"id" "132"
+			"plane" "(-884 343 84) (-804 343 84) (-804 303 84)"
+			vertices_plus
+			{
+				"v" "-884 343 84"
+				"v" "-804 343 84"
+				"v" "-804 303 84"
+				"v" "-884 303 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 -1 0 -54.4] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "131"
+			"plane" "(-884 303 64) (-804 303 64) (-804 343 64)"
+			vertices_plus
+			{
+				"v" "-884 303 64"
+				"v" "-804 303 64"
+				"v" "-804 343 64"
+				"v" "-884 343 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 -1 0 -54.4] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "130"
+			"plane" "(-884 343 84) (-884 303 84) (-884 303 64)"
+			vertices_plus
+			{
+				"v" "-884 343 84"
+				"v" "-884 303 84"
+				"v" "-884 303 64"
+				"v" "-884 343 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[0 1 0 54.4] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "129"
+			"plane" "(-804 343 64) (-804 303 64) (-804 303 84)"
+			vertices_plus
+			{
+				"v" "-804 343 64"
+				"v" "-804 303 64"
+				"v" "-804 303 84"
+				"v" "-804 343 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[0 1 0 54.4] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "128"
+			"plane" "(-804 343 84) (-884 343 84) (-884 343 64)"
+			vertices_plus
+			{
+				"v" "-804 343 84"
+				"v" "-884 343 84"
+				"v" "-884 343 64"
+				"v" "-804 343 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "127"
+			"plane" "(-804 303 64) (-884 303 64) (-884 303 84)"
+			vertices_plus
+			{
+				"v" "-804 303 64"
+				"v" "-884 303 64"
+				"v" "-884 303 84"
+				"v" "-804 303 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 172 145"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "86"
+		side
+		{
+			"id" "144"
+			"plane" "(-844 503 84) (-764 503 84) (-764 463 84)"
+			vertices_plus
+			{
+				"v" "-844 503 84"
+				"v" "-764 503 84"
+				"v" "-764 463 84"
+				"v" "-844 463 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 -1 0 73.6] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "143"
+			"plane" "(-844 463 64) (-764 463 64) (-764 503 64)"
+			vertices_plus
+			{
+				"v" "-844 463 64"
+				"v" "-764 463 64"
+				"v" "-764 503 64"
+				"v" "-844 503 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 -1 0 73.6] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "142"
+			"plane" "(-844 503 84) (-844 463 84) (-844 463 64)"
+			vertices_plus
+			{
+				"v" "-844 503 84"
+				"v" "-844 463 84"
+				"v" "-844 463 64"
+				"v" "-844 503 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[0 1 0 -73.6] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "141"
+			"plane" "(-764 503 64) (-764 463 64) (-764 463 84)"
+			vertices_plus
+			{
+				"v" "-764 503 64"
+				"v" "-764 463 64"
+				"v" "-764 463 84"
+				"v" "-764 503 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[0 1 0 -73.6] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "140"
+			"plane" "(-764 503 84) (-844 503 84) (-844 503 64)"
+			vertices_plus
+			{
+				"v" "-764 503 84"
+				"v" "-844 503 84"
+				"v" "-844 503 64"
+				"v" "-764 503 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "139"
+			"plane" "(-764 463 64) (-844 463 64) (-844 463 84)"
+			vertices_plus
+			{
+				"v" "-764 463 64"
+				"v" "-844 463 64"
+				"v" "-844 463 84"
+				"v" "-764 463 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 172 145"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "88"
+		side
+		{
+			"id" "156"
+			"plane" "(-684 423 84) (-564 423 84) (-564 383 84)"
+			vertices_plus
+			{
+				"v" "-684 423 84"
+				"v" "-564 423 84"
+				"v" "-564 383 84"
+				"v" "-684 383 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 -115.2] 0.3125"
+			"vaxis" "[0 -1 0 -54.4] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "155"
+			"plane" "(-684 383 64) (-564 383 64) (-564 423 64)"
+			vertices_plus
+			{
+				"v" "-684 383 64"
+				"v" "-564 383 64"
+				"v" "-564 423 64"
+				"v" "-684 423 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 -115.2] 0.3125"
+			"vaxis" "[0 -1 0 -54.4] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "154"
+			"plane" "(-684 423 84) (-684 383 84) (-684 383 64)"
+			vertices_plus
+			{
+				"v" "-684 423 84"
+				"v" "-684 383 84"
+				"v" "-684 383 64"
+				"v" "-684 423 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[0 1 0 54.4] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "153"
+			"plane" "(-564 423 64) (-564 383 64) (-564 383 84)"
+			vertices_plus
+			{
+				"v" "-564 423 64"
+				"v" "-564 383 64"
+				"v" "-564 383 84"
+				"v" "-564 423 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[0 1 0 54.4] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "152"
+			"plane" "(-564 423 84) (-684 423 84) (-684 423 64)"
+			vertices_plus
+			{
+				"v" "-564 423 84"
+				"v" "-684 423 84"
+				"v" "-684 423 64"
+				"v" "-564 423 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 -115.2] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "151"
+			"plane" "(-564 383 64) (-684 383 64) (-684 383 84)"
+			vertices_plus
+			{
+				"v" "-564 383 64"
+				"v" "-684 383 64"
+				"v" "-684 383 84"
+				"v" "-564 383 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 -115.2] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 172 145"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "91"
+		side
+		{
+			"id" "168"
+			"plane" "(-564 383 84) (-524 383 84) (-524 343 84)"
+			vertices_plus
+			{
+				"v" "-564 383 84"
+				"v" "-524 383 84"
+				"v" "-524 343 84"
+				"v" "-564 343 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 -115.2] 0.3125"
+			"vaxis" "[0 -1 0 -54.4] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "167"
+			"plane" "(-564 343 64) (-524 343 64) (-524 383 64)"
+			vertices_plus
+			{
+				"v" "-564 343 64"
+				"v" "-524 343 64"
+				"v" "-524 383 64"
+				"v" "-564 383 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 -115.2] 0.3125"
+			"vaxis" "[0 -1 0 -54.4] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "166"
+			"plane" "(-564 383 84) (-564 343 84) (-564 343 64)"
+			vertices_plus
+			{
+				"v" "-564 383 84"
+				"v" "-564 343 84"
+				"v" "-564 343 64"
+				"v" "-564 383 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[0 1 0 54.4] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "165"
+			"plane" "(-524 383 64) (-524 343 64) (-524 343 84)"
+			vertices_plus
+			{
+				"v" "-524 383 64"
+				"v" "-524 343 64"
+				"v" "-524 343 84"
+				"v" "-524 383 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[0 1 0 54.4] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "164"
+			"plane" "(-524 383 84) (-564 383 84) (-564 383 64)"
+			vertices_plus
+			{
+				"v" "-524 383 84"
+				"v" "-564 383 84"
+				"v" "-564 383 64"
+				"v" "-524 383 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 -115.2] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "163"
+			"plane" "(-524 343 64) (-564 343 64) (-564 343 84)"
+			vertices_plus
+			{
+				"v" "-524 343 64"
+				"v" "-564 343 64"
+				"v" "-564 343 84"
+				"v" "-524 343 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 -115.2] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 172 145"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "94"
+		side
+		{
+			"id" "180"
+			"plane" "(-524 343 84) (-444 343 84) (-444 303 84)"
+			vertices_plus
+			{
+				"v" "-524 343 84"
+				"v" "-444 343 84"
+				"v" "-444 303 84"
+				"v" "-524 303 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 -115.2] 0.3125"
+			"vaxis" "[0 -1 0 -54.4] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "179"
+			"plane" "(-524 303 64) (-444 303 64) (-444 343 64)"
+			vertices_plus
+			{
+				"v" "-524 303 64"
+				"v" "-444 303 64"
+				"v" "-444 343 64"
+				"v" "-524 343 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 -115.2] 0.3125"
+			"vaxis" "[0 -1 0 -54.4] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "178"
+			"plane" "(-524 343 84) (-524 303 84) (-524 303 64)"
+			vertices_plus
+			{
+				"v" "-524 343 84"
+				"v" "-524 303 84"
+				"v" "-524 303 64"
+				"v" "-524 343 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[0 1 0 54.4] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "177"
+			"plane" "(-444 343 64) (-444 303 64) (-444 303 84)"
+			vertices_plus
+			{
+				"v" "-444 343 64"
+				"v" "-444 303 64"
+				"v" "-444 303 84"
+				"v" "-444 343 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[0 1 0 54.4] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "176"
+			"plane" "(-444 343 84) (-524 343 84) (-524 343 64)"
+			vertices_plus
+			{
+				"v" "-444 343 84"
+				"v" "-524 343 84"
+				"v" "-524 343 64"
+				"v" "-444 343 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 -115.2] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "175"
+			"plane" "(-444 303 64) (-524 303 64) (-524 303 84)"
+			vertices_plus
+			{
+				"v" "-444 303 64"
+				"v" "-524 303 64"
+				"v" "-524 303 84"
+				"v" "-444 303 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 -115.2] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 172 145"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "97"
+		side
+		{
+			"id" "192"
+			"plane" "(-444 303 84) (196 303 84) (196 263 84)"
+			vertices_plus
+			{
+				"v" "-444 303 84"
+				"v" "196 303 84"
+				"v" "196 263 84"
+				"v" "-444 263 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 -115.2] 0.3125"
+			"vaxis" "[0 -1 0 -54.4] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "191"
+			"plane" "(-444 263 64) (196 263 64) (196 303 64)"
+			vertices_plus
+			{
+				"v" "-444 263 64"
+				"v" "196 263 64"
+				"v" "196 303 64"
+				"v" "-444 303 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 -115.2] 0.3125"
+			"vaxis" "[0 -1 0 -54.4] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "190"
+			"plane" "(-444 303 84) (-444 263 84) (-444 263 64)"
+			vertices_plus
+			{
+				"v" "-444 303 84"
+				"v" "-444 263 84"
+				"v" "-444 263 64"
+				"v" "-444 303 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[0 1 0 54.4] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "189"
+			"plane" "(196 303 64) (196 263 64) (196 263 84)"
+			vertices_plus
+			{
+				"v" "196 303 64"
+				"v" "196 263 64"
+				"v" "196 263 84"
+				"v" "196 303 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[0 1 0 54.4] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "188"
+			"plane" "(196 303 84) (-444 303 84) (-444 303 64)"
+			vertices_plus
+			{
+				"v" "196 303 84"
+				"v" "-444 303 84"
+				"v" "-444 303 64"
+				"v" "196 303 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 -115.2] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "187"
+			"plane" "(196 263 64) (-444 263 64) (-444 263 84)"
+			vertices_plus
+			{
+				"v" "196 263 64"
+				"v" "-444 263 64"
+				"v" "-444 263 84"
+				"v" "196 263 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 -115.2] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 172 145"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "102"
+		side
+		{
+			"id" "204"
+			"plane" "(196 343 84) (6316 343 84) (6316 303 84)"
+			vertices_plus
+			{
+				"v" "196 343 84"
+				"v" "6316 343 84"
+				"v" "6316 303 84"
+				"v" "196 303 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 -115.2] 0.3125"
+			"vaxis" "[0 -1 0 -54.4] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "203"
+			"plane" "(196 303 64) (6316 303 64) (6316 343 64)"
+			vertices_plus
+			{
+				"v" "196 303 64"
+				"v" "6316 303 64"
+				"v" "6316 343 64"
+				"v" "196 343 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 -115.2] 0.3125"
+			"vaxis" "[0 -1 0 -54.4] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "202"
+			"plane" "(196 343 84) (196 303 84) (196 303 64)"
+			vertices_plus
+			{
+				"v" "196 343 84"
+				"v" "196 303 84"
+				"v" "196 303 64"
+				"v" "196 343 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[0 1 0 54.4] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "201"
+			"plane" "(6316 343 64) (6316 303 64) (6316 303 84)"
+			vertices_plus
+			{
+				"v" "6316 343 64"
+				"v" "6316 303 64"
+				"v" "6316 303 84"
+				"v" "6316 343 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[0 1 0 54.4] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "200"
+			"plane" "(6316 343 84) (196 343 84) (196 343 64)"
+			vertices_plus
+			{
+				"v" "6316 343 84"
+				"v" "196 343 84"
+				"v" "196 343 64"
+				"v" "6316 343 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 -115.2] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "199"
+			"plane" "(6316 303 64) (196 303 64) (196 303 84)"
+			vertices_plus
+			{
+				"v" "6316 303 64"
+				"v" "196 303 64"
+				"v" "196 303 84"
+				"v" "6316 303 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 -115.2] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 172 145"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "105"
+		side
+		{
+			"id" "216"
+			"plane" "(-764 463 84) (-684 463 84) (-684 423 84)"
+			vertices_plus
+			{
+				"v" "-764 463 84"
+				"v" "-684 463 84"
+				"v" "-684 423 84"
+				"v" "-764 423 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 -115.2] 0.3125"
+			"vaxis" "[0 -1 0 -54.4] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "215"
+			"plane" "(-764 423 64) (-684 423 64) (-684 463 64)"
+			vertices_plus
+			{
+				"v" "-764 423 64"
+				"v" "-684 423 64"
+				"v" "-684 463 64"
+				"v" "-764 463 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 -115.2] 0.3125"
+			"vaxis" "[0 -1 0 -54.4] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "214"
+			"plane" "(-764 463 84) (-764 423 84) (-764 423 64)"
+			vertices_plus
+			{
+				"v" "-764 463 84"
+				"v" "-764 423 84"
+				"v" "-764 423 64"
+				"v" "-764 463 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[0 1 0 54.4] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "213"
+			"plane" "(-684 463 64) (-684 423 64) (-684 423 84)"
+			vertices_plus
+			{
+				"v" "-684 463 64"
+				"v" "-684 423 64"
+				"v" "-684 423 84"
+				"v" "-684 463 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[0 1 0 54.4] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "212"
+			"plane" "(-684 463 84) (-764 463 84) (-764 463 64)"
+			vertices_plus
+			{
+				"v" "-684 463 84"
+				"v" "-764 463 84"
+				"v" "-764 463 64"
+				"v" "-684 463 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 -115.2] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "211"
+			"plane" "(-684 423 64) (-764 423 64) (-764 423 84)"
+			vertices_plus
+			{
+				"v" "-684 423 64"
+				"v" "-764 423 64"
+				"v" "-764 423 84"
+				"v" "-684 423 84"
+			}
+			"material" "MINECRAFT_ORIGINAL/STONE SLAB TOP"
+			"uaxis" "[1 0 0 -115.2] 0.3125"
+			"vaxis" "[0 0 -1 25.6] 0.15625"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 172 145"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "388"
+		side
+		{
+			"id" "354"
+			"plane" "(-1761 3870 600) (7629 3870 600) (7629 -522 600)"
+			vertices_plus
+			{
+				"v" "-1761 -522 600"
+				"v" "-1761 3870 600"
+				"v" "7629 3870 600"
+				"v" "7629 -522 600"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "353"
+			"plane" "(-1761 3870 600) (-1761 -522 600) (-1761 -522 -32)"
+			vertices_plus
+			{
+				"v" "-1761 3870 568"
+				"v" "-1761 3870 600"
+				"v" "-1761 -522 600"
+				"v" "-1761 -522 568"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "352"
+			"plane" "(7629 3870 -32) (7629 -522 -32) (7629 -522 600)"
+			vertices_plus
+			{
+				"v" "7629 -522 568"
+				"v" "7629 -522 600"
+				"v" "7629 3870 600"
+				"v" "7629 3870 568"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "351"
+			"plane" "(7629 3870 600) (-1761 3870 600) (-1761 3870 -32)"
+			vertices_plus
+			{
+				"v" "7629 3870 568"
+				"v" "7629 3870 600"
+				"v" "-1761 3870 600"
+				"v" "-1761 3870 568"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "350"
+			"plane" "(7629 -522 -32) (-1761 -522 -32) (-1761 -522 600)"
+			vertices_plus
+			{
+				"v" "-1761 -522 568"
+				"v" "-1761 -522 600"
+				"v" "7629 -522 600"
+				"v" "7629 -522 568"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "349"
+			"plane" "(7597 -490 568) (7597 3838 568) (-1729 3838 568)"
+			vertices_plus
+			{
+				"v" "-1761 3870 568"
+				"v" "-1761 -522 568"
+				"v" "7629 -522 568"
+				"v" "7629 3870 568"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 220 220"
+			"groupid" "400"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "390"
+		side
+		{
+			"id" "360"
+			"plane" "(-1761 -522 -32) (7629 -522 -32) (7629 3870 -32)"
+			vertices_plus
+			{
+				"v" "-1761 3870 -32"
+				"v" "-1761 -522 -32"
+				"v" "7629 -522 -32"
+				"v" "7629 3870 -32"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "359"
+			"plane" "(-1761 3870 600) (-1761 -522 600) (-1761 -522 -32)"
+			vertices_plus
+			{
+				"v" "-1761 -522 0"
+				"v" "-1761 -522 -32"
+				"v" "-1761 3870 -32"
+				"v" "-1761 3870 0"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "358"
+			"plane" "(7629 3870 -32) (7629 -522 -32) (7629 -522 600)"
+			vertices_plus
+			{
+				"v" "7629 3870 0"
+				"v" "7629 3870 -32"
+				"v" "7629 -522 -32"
+				"v" "7629 -522 0"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "357"
+			"plane" "(7629 3870 600) (-1761 3870 600) (-1761 3870 -32)"
+			vertices_plus
+			{
+				"v" "-1761 3870 0"
+				"v" "-1761 3870 -32"
+				"v" "7629 3870 -32"
+				"v" "7629 3870 0"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "356"
+			"plane" "(7629 -522 -32) (-1761 -522 -32) (-1761 -522 600)"
+			vertices_plus
+			{
+				"v" "7629 -522 0"
+				"v" "7629 -522 -32"
+				"v" "-1761 -522 -32"
+				"v" "-1761 -522 0"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "355"
+			"plane" "(7597 3838 0) (7597 -490 0) (-1729 -490 0)"
+			vertices_plus
+			{
+				"v" "-1761 -522 0"
+				"v" "-1761 3870 0"
+				"v" "7629 3870 0"
+				"v" "7629 -522 0"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 220 220"
+			"groupid" "400"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "392"
+		side
+		{
+			"id" "366"
+			"plane" "(-1761 3870 600) (-1761 -522 600) (-1761 -522 -32)"
+			vertices_plus
+			{
+				"v" "-1761 -522 568"
+				"v" "-1761 -522 0"
+				"v" "-1761 3870 0"
+				"v" "-1761 3870 568"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "365"
+			"plane" "(7629 3870 600) (-1761 3870 600) (-1761 3870 -32)"
+			vertices_plus
+			{
+				"v" "-1761 3870 568"
+				"v" "-1761 3870 0"
+				"v" "-1729 3870 0"
+				"v" "-1729 3870 568"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "364"
+			"plane" "(7629 -522 -32) (-1761 -522 -32) (-1761 -522 600)"
+			vertices_plus
+			{
+				"v" "-1729 -522 0"
+				"v" "-1761 -522 0"
+				"v" "-1761 -522 568"
+				"v" "-1729 -522 568"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "363"
+			"plane" "(-1729 3838 568) (7597 3838 568) (7597 -490 568)"
+			vertices_plus
+			{
+				"v" "-1761 -522 568"
+				"v" "-1761 3870 568"
+				"v" "-1729 3870 568"
+				"v" "-1729 -522 568"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "362"
+			"plane" "(-1729 -490 0) (7597 -490 0) (7597 3838 0)"
+			vertices_plus
+			{
+				"v" "-1761 3870 0"
+				"v" "-1761 -522 0"
+				"v" "-1729 -522 0"
+				"v" "-1729 3870 0"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "361"
+			"plane" "(-1729 -490 0) (-1729 -490 568) (-1729 3838 568)"
+			vertices_plus
+			{
+				"v" "-1729 3870 568"
+				"v" "-1729 3870 0"
+				"v" "-1729 -522 0"
+				"v" "-1729 -522 568"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 220 220"
+			"groupid" "400"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "394"
+		side
+		{
+			"id" "372"
+			"plane" "(7629 3870 -32) (7629 -522 -32) (7629 -522 600)"
+			vertices_plus
+			{
+				"v" "7629 3870 568"
+				"v" "7629 3870 0"
+				"v" "7629 -522 0"
+				"v" "7629 -522 568"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "371"
+			"plane" "(7629 3870 600) (-1761 3870 600) (-1761 3870 -32)"
+			vertices_plus
+			{
+				"v" "7597 3870 0"
+				"v" "7629 3870 0"
+				"v" "7629 3870 568"
+				"v" "7597 3870 568"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "370"
+			"plane" "(7629 -522 -32) (-1761 -522 -32) (-1761 -522 600)"
+			vertices_plus
+			{
+				"v" "7629 -522 568"
+				"v" "7629 -522 0"
+				"v" "7597 -522 0"
+				"v" "7597 -522 568"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "369"
+			"plane" "(-1729 3838 568) (7597 3838 568) (7597 -490 568)"
+			vertices_plus
+			{
+				"v" "7597 3870 568"
+				"v" "7629 3870 568"
+				"v" "7629 -522 568"
+				"v" "7597 -522 568"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "368"
+			"plane" "(-1729 -490 0) (7597 -490 0) (7597 3838 0)"
+			vertices_plus
+			{
+				"v" "7597 -522 0"
+				"v" "7629 -522 0"
+				"v" "7629 3870 0"
+				"v" "7597 3870 0"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "367"
+			"plane" "(7597 -490 568) (7597 -490 0) (7597 3838 0)"
+			vertices_plus
+			{
+				"v" "7597 -522 568"
+				"v" "7597 -522 0"
+				"v" "7597 3870 0"
+				"v" "7597 3870 568"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 220 220"
+			"groupid" "400"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "396"
+		side
+		{
+			"id" "378"
+			"plane" "(7629 3870 600) (-1761 3870 600) (-1761 3870 -32)"
+			vertices_plus
+			{
+				"v" "-1729 3870 0"
+				"v" "7597 3870 0"
+				"v" "7597 3870 568"
+				"v" "-1729 3870 568"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "377"
+			"plane" "(-1729 3838 568) (7597 3838 568) (7597 -490 568)"
+			vertices_plus
+			{
+				"v" "-1729 3838 568"
+				"v" "-1729 3870 568"
+				"v" "7597 3870 568"
+				"v" "7597 3838 568"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "376"
+			"plane" "(-1729 -490 0) (7597 -490 0) (7597 3838 0)"
+			vertices_plus
+			{
+				"v" "7597 3870 0"
+				"v" "-1729 3870 0"
+				"v" "-1729 3838 0"
+				"v" "7597 3838 0"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "375"
+			"plane" "(-1729 3838 568) (-1729 -490 568) (-1729 -490 0)"
+			vertices_plus
+			{
+				"v" "-1729 3838 0"
+				"v" "-1729 3870 0"
+				"v" "-1729 3870 568"
+				"v" "-1729 3838 568"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "374"
+			"plane" "(7597 3838 0) (7597 -490 0) (7597 -490 568)"
+			vertices_plus
+			{
+				"v" "7597 3870 568"
+				"v" "7597 3870 0"
+				"v" "7597 3838 0"
+				"v" "7597 3838 568"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "373"
+			"plane" "(-1729 3838 0) (-1729 3838 568) (7597 3838 568)"
+			vertices_plus
+			{
+				"v" "7597 3838 0"
+				"v" "-1729 3838 0"
+				"v" "-1729 3838 568"
+				"v" "7597 3838 568"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 220 220"
+			"groupid" "400"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "398"
+		side
+		{
+			"id" "384"
+			"plane" "(7629 -522 -32) (-1761 -522 -32) (-1761 -522 600)"
+			vertices_plus
+			{
+				"v" "7597 -522 0"
+				"v" "-1729 -522 0"
+				"v" "-1729 -522 568"
+				"v" "7597 -522 568"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "383"
+			"plane" "(-1729 3838 568) (7597 3838 568) (7597 -490 568)"
+			vertices_plus
+			{
+				"v" "7597 -522 568"
+				"v" "-1729 -522 568"
+				"v" "-1729 -490 568"
+				"v" "7597 -490 568"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "382"
+			"plane" "(-1729 -490 0) (7597 -490 0) (7597 3838 0)"
+			vertices_plus
+			{
+				"v" "-1729 -490 0"
+				"v" "-1729 -522 0"
+				"v" "7597 -522 0"
+				"v" "7597 -490 0"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "381"
+			"plane" "(-1729 3838 568) (-1729 -490 568) (-1729 -490 0)"
+			vertices_plus
+			{
+				"v" "-1729 -522 568"
+				"v" "-1729 -522 0"
+				"v" "-1729 -490 0"
+				"v" "-1729 -490 568"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "380"
+			"plane" "(7597 3838 0) (7597 -490 0) (7597 -490 568)"
+			vertices_plus
+			{
+				"v" "7597 -490 0"
+				"v" "7597 -522 0"
+				"v" "7597 -522 568"
+				"v" "7597 -490 568"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "379"
+			"plane" "(-1729 -490 568) (-1729 -490 0) (7597 -490 0)"
+			vertices_plus
+			{
+				"v" "-1729 -490 0"
+				"v" "7597 -490 0"
+				"v" "7597 -490 568"
+				"v" "-1729 -490 568"
+			}
+			"material" "TOOLS/TOOLSSKYBOX"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 220 220"
+			"groupid" "400"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "201"
+		side
+		{
+			"id" "312"
+			"plane" "(-444 1103 144) (-284 1103 144) (-284 503 144)"
+			vertices_plus
+			{
+				"v" "-444 1103 144"
+				"v" "-284 1103 144"
+				"v" "-284 503 144"
+				"v" "-444 503 144"
+			}
+			"material" "MINECRAFT_ORIGINAL/OBSIDIAN"
+			"uaxis" "[1 0 0 -115.2] 0.3125"
+			"vaxis" "[0 -1 0 73.6] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "311"
+			"plane" "(-444 503 64) (-284 503 64) (-284 1103 64)"
+			vertices_plus
+			{
+				"v" "-444 503 64"
+				"v" "-284 503 64"
+				"v" "-284 1103 64"
+				"v" "-444 1103 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/OBSIDIAN"
+			"uaxis" "[-1 0 0 115.2] 0.3125"
+			"vaxis" "[0 -1 0 73.6] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "310"
+			"plane" "(-444 1103 144) (-444 503 144) (-444 503 64)"
+			vertices_plus
+			{
+				"v" "-444 1103 144"
+				"v" "-444 503 144"
+				"v" "-444 503 64"
+				"v" "-444 1103 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/OBSIDIAN"
+			"uaxis" "[0 -1 0 73.6] 0.3125"
+			"vaxis" "[0 0 -1 76.8] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "309"
+			"plane" "(-284 1103 64) (-284 503 64) (-284 503 144)"
+			vertices_plus
+			{
+				"v" "-284 1103 64"
+				"v" "-284 503 64"
+				"v" "-284 503 144"
+				"v" "-284 1103 144"
+			}
+			"material" "MINECRAFT_ORIGINAL/OBSIDIAN"
+			"uaxis" "[0 1 0 -73.6] 0.3125"
+			"vaxis" "[0 0 -1 76.8] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "308"
+			"plane" "(-284 1103 144) (-444 1103 144) (-444 1103 64)"
+			vertices_plus
+			{
+				"v" "-284 1103 144"
+				"v" "-444 1103 144"
+				"v" "-444 1103 64"
+				"v" "-284 1103 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/OBSIDIAN"
+			"uaxis" "[-1 0 0 115.2] 0.3125"
+			"vaxis" "[0 0 -1 76.8] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "307"
+			"plane" "(-284 503 64) (-444 503 64) (-444 503 144)"
+			vertices_plus
+			{
+				"v" "-284 503 64"
+				"v" "-444 503 64"
+				"v" "-444 503 144"
+				"v" "-284 503 144"
+			}
+			"material" "MINECRAFT_ORIGINAL/OBSIDIAN"
+			"uaxis" "[1 0 0 -115.2] 0.3125"
+			"vaxis" "[0 0 -1 76.8] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 104 245"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "160"
+		side
+		{
+			"id" "282"
+			"plane" "(-284 703 144) (-44 703 144) (-44 463 144)"
+			vertices_plus
+			{
+				"v" "-284 703 144"
+				"v" "-44 703 144"
+				"v" "-44 463 144"
+				"v" "-284 463 144"
+			}
+			"material" "MINECRAFT_ORIGINAL/OBSIDIAN"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 -1 0 73.5999] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "281"
+			"plane" "(-284 463 64) (-44 463 64) (-44 703 64)"
+			vertices_plus
+			{
+				"v" "-284 463 64"
+				"v" "-44 463 64"
+				"v" "-44 703 64"
+				"v" "-284 703 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/OBSIDIAN"
+			"uaxis" "[-1 0 0 -12.8] 0.3125"
+			"vaxis" "[0 -1 0 73.5999] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "280"
+			"plane" "(-284 703 144) (-284 463 144) (-284 463 64)"
+			vertices_plus
+			{
+				"v" "-284 703 144"
+				"v" "-284 463 144"
+				"v" "-284 463 64"
+				"v" "-284 703 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/OBSIDIAN"
+			"uaxis" "[0 -1 0 73.6] 0.3125"
+			"vaxis" "[0 0 -1 76.8] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "279"
+			"plane" "(-44 703 64) (-44 463 64) (-44 463 144)"
+			vertices_plus
+			{
+				"v" "-44 703 64"
+				"v" "-44 463 64"
+				"v" "-44 463 144"
+				"v" "-44 703 144"
+			}
+			"material" "MINECRAFT_ORIGINAL/OBSIDIAN"
+			"uaxis" "[0 1 0 -73.6] 0.3125"
+			"vaxis" "[0 0 -1 76.8] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "278"
+			"plane" "(-44 703 144) (-284 703 144) (-284 703 64)"
+			vertices_plus
+			{
+				"v" "-44 703 144"
+				"v" "-284 703 144"
+				"v" "-284 703 64"
+				"v" "-44 703 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/OBSIDIAN"
+			"uaxis" "[-1 0 0 -12.8] 0.3125"
+			"vaxis" "[0 0 -1 76.8] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "277"
+			"plane" "(-44 463 64) (-284 463 64) (-284 463 144)"
+			vertices_plus
+			{
+				"v" "-44 463 64"
+				"v" "-284 463 64"
+				"v" "-284 463 144"
+				"v" "-44 463 144"
+			}
+			"material" "MINECRAFT_ORIGINAL/OBSIDIAN"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 0 -1 76.8] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 104 245"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "359"
+		side
+		{
+			"id" "324"
+			"plane" "(-44 743 144) (36 743 144) (36 703 144)"
+			vertices_plus
+			{
+				"v" "-44 743 144"
+				"v" "36 743 144"
+				"v" "36 703 144"
+				"v" "-44 703 144"
+			}
+			"material" "MINECRAFT_ORIGINAL/OBSIDIAN"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 -1 0 73.5999] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "323"
+			"plane" "(-44 703 64) (36 703 64) (36 743 64)"
+			vertices_plus
+			{
+				"v" "-44 703 64"
+				"v" "36 703 64"
+				"v" "36 743 64"
+				"v" "-44 743 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/OBSIDIAN"
+			"uaxis" "[-1 0 0 -12.8] 0.3125"
+			"vaxis" "[0 -1 0 73.5999] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "322"
+			"plane" "(-44 743 144) (-44 703 144) (-44 703 64)"
+			vertices_plus
+			{
+				"v" "-44 743 144"
+				"v" "-44 703 144"
+				"v" "-44 703 64"
+				"v" "-44 743 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/OBSIDIAN"
+			"uaxis" "[0 -1 0 73.6] 0.3125"
+			"vaxis" "[0 0 -1 76.8] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "321"
+			"plane" "(36 743 64) (36 703 64) (36 703 144)"
+			vertices_plus
+			{
+				"v" "36 743 64"
+				"v" "36 703 64"
+				"v" "36 703 144"
+				"v" "36 743 144"
+			}
+			"material" "MINECRAFT_ORIGINAL/OBSIDIAN"
+			"uaxis" "[0 1 0 -73.6] 0.3125"
+			"vaxis" "[0 0 -1 76.8] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "320"
+			"plane" "(36 743 144) (-44 743 144) (-44 743 64)"
+			vertices_plus
+			{
+				"v" "36 743 144"
+				"v" "-44 743 144"
+				"v" "-44 743 64"
+				"v" "36 743 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/OBSIDIAN"
+			"uaxis" "[-1 0 0 -12.8] 0.3125"
+			"vaxis" "[0 0 -1 76.8] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "319"
+			"plane" "(36 703 64) (-44 703 64) (-44 703 144)"
+			vertices_plus
+			{
+				"v" "36 703 64"
+				"v" "-44 703 64"
+				"v" "-44 703 144"
+				"v" "36 703 144"
+			}
+			"material" "MINECRAFT_ORIGINAL/OBSIDIAN"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 0 -1 76.8] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 104 245"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "409"
+		side
+		{
+			"id" "408"
+			"plane" "(76 743 144) (276 743 144) (276 703 144)"
+			vertices_plus
+			{
+				"v" "76 743 144"
+				"v" "276 743 144"
+				"v" "276 703 144"
+				"v" "76 703 144"
+			}
+			"material" "MINECRAFT_ORIGINAL/OBSIDIAN"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 -1 0 73.5999] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "407"
+			"plane" "(76 703 64) (276 703 64) (276 743 64)"
+			vertices_plus
+			{
+				"v" "76 703 64"
+				"v" "276 703 64"
+				"v" "276 743 64"
+				"v" "76 743 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/OBSIDIAN"
+			"uaxis" "[-1 0 0 -12.8] 0.3125"
+			"vaxis" "[0 -1 0 73.5999] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "406"
+			"plane" "(76 743 144) (76 703 144) (76 703 64)"
+			vertices_plus
+			{
+				"v" "76 743 144"
+				"v" "76 703 144"
+				"v" "76 703 64"
+				"v" "76 743 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/OBSIDIAN"
+			"uaxis" "[0 -1 0 73.6] 0.3125"
+			"vaxis" "[0 0 -1 76.8] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "405"
+			"plane" "(276 743 64) (276 703 64) (276 703 144)"
+			vertices_plus
+			{
+				"v" "276 743 64"
+				"v" "276 703 64"
+				"v" "276 703 144"
+				"v" "276 743 144"
+			}
+			"material" "MINECRAFT_ORIGINAL/OBSIDIAN"
+			"uaxis" "[0 1 0 -73.6] 0.3125"
+			"vaxis" "[0 0 -1 76.8] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "404"
+			"plane" "(276 743 144) (76 743 144) (76 743 64)"
+			vertices_plus
+			{
+				"v" "276 743 144"
+				"v" "76 743 144"
+				"v" "76 743 64"
+				"v" "276 743 64"
+			}
+			"material" "MINECRAFT_ORIGINAL/OBSIDIAN"
+			"uaxis" "[-1 0 0 -12.8] 0.3125"
+			"vaxis" "[0 0 -1 76.8] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "403"
+			"plane" "(276 703 64) (76 703 64) (76 703 144)"
+			vertices_plus
+			{
+				"v" "276 703 64"
+				"v" "76 703 64"
+				"v" "76 703 144"
+				"v" "276 703 144"
+			}
+			"material" "MINECRAFT_ORIGINAL/OBSIDIAN"
+			"uaxis" "[1 0 0 12.8] 0.3125"
+			"vaxis" "[0 0 -1 76.8] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 104 245"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "400"
+		editor
+		{
+			"color" "220 220 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "22"
+	"classname" "info_player_start"
+	"angles" "0 0 0"
+	"origin" "319 131 65"
+	editor
+	{
+		"color" "0 255 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "339"
+	"classname" "light_environment"
+	"_ambient" "255 255 255 20"
+	"_ambientHDR" "-1 -1 -1 1"
+	"_AmbientScaleHDR" "1"
+	"_light" "255 255 255 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"angles" "-72 78 0"
+	"pitch" "-72"
+	"SunSpreadAngle" "0"
+	"origin" "-1721 -482 560"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 14500]"
+	}
+}
+entity
+{
+	"id" "405"
+	"classname" "func_detail"
+	solid
+	{
+		"id" "374"
+		side
+		{
+			"id" "390"
+			"plane" "(36 704 144) (76 704 144) (76 703 144)"
+			vertices_plus
+			{
+				"v" "36 704 144"
+				"v" "76 704 144"
+				"v" "76 703 144"
+				"v" "36 703 144"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -51.2] 0.3125"
+			"vaxis" "[0 -1 0 9.5999] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "389"
+			"plane" "(36 703 104) (76 703 104) (76 704 104)"
+			vertices_plus
+			{
+				"v" "36 703 104"
+				"v" "76 703 104"
+				"v" "76 704 104"
+				"v" "36 704 104"
+			}
+			"material" "MINECRAFT_ORIGINAL/OBSIDIAN"
+			"uaxis" "[-1 0 0 115.2] 0.3125"
+			"vaxis" "[0 -1 0 73.5999] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "388"
+			"plane" "(36 704 144) (36 703 144) (36 703 104)"
+			vertices_plus
+			{
+				"v" "36 704 144"
+				"v" "36 703 144"
+				"v" "36 703 104"
+				"v" "36 704 104"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 9.6] 0.3125"
+			"vaxis" "[0 0 -1 12.8] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "387"
+			"plane" "(76 704 104) (76 703 104) (76 703 144)"
+			vertices_plus
+			{
+				"v" "76 704 104"
+				"v" "76 703 104"
+				"v" "76 703 144"
+				"v" "76 704 144"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -9.6] 0.3125"
+			"vaxis" "[0 0 -1 12.8] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "386"
+			"plane" "(76 704 144) (36 704 144) (36 704 104)"
+			vertices_plus
+			{
+				"v" "76 704 144"
+				"v" "36 704 144"
+				"v" "36 704 104"
+				"v" "76 704 104"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 51.2] 0.3125"
+			"vaxis" "[0 0 -1 12.8] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "385"
+			"plane" "(76 703 104) (36 703 104) (36 703 144)"
+			vertices_plus
+			{
+				"v" "76 703 104"
+				"v" "36 703 104"
+				"v" "36 703 144"
+				"v" "76 703 144"
+			}
+			"material" "MINECRAFT_ORIGINAL/METAL DOOR 1"
+			"uaxis" "[1 0 0 -115.2] 0.3125"
+			"vaxis" "[0 0 -1 76.8] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	solid
+	{
+		"id" "366"
+		side
+		{
+			"id" "396"
+			"plane" "(36 704 104) (76 704 104) (76 703 104)"
+			vertices_plus
+			{
+				"v" "36 704 104"
+				"v" "76 704 104"
+				"v" "76 703 104"
+				"v" "36 703 104"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[1 0 0 -51.2] 0.3125"
+			"vaxis" "[0 -1 0 9.5999] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "395"
+			"plane" "(36 703 64) (76 703 64) (76 704 64)"
+			vertices_plus
+			{
+				"v" "36 703 64"
+				"v" "76 703 64"
+				"v" "76 704 64"
+				"v" "36 704 64"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 51.2] 0.3125"
+			"vaxis" "[0 -1 0 9.5999] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "394"
+			"plane" "(36 704 104) (36 703 104) (36 703 64)"
+			vertices_plus
+			{
+				"v" "36 704 104"
+				"v" "36 703 104"
+				"v" "36 703 64"
+				"v" "36 704 64"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 -1 0 9.6] 0.3125"
+			"vaxis" "[0 0 -1 12.8] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "393"
+			"plane" "(76 704 64) (76 703 64) (76 703 104)"
+			vertices_plus
+			{
+				"v" "76 704 64"
+				"v" "76 703 64"
+				"v" "76 703 104"
+				"v" "76 704 104"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[0 1 0 -9.6] 0.3125"
+			"vaxis" "[0 0 -1 12.8] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "392"
+			"plane" "(76 704 104) (36 704 104) (36 704 64)"
+			vertices_plus
+			{
+				"v" "76 704 104"
+				"v" "36 704 104"
+				"v" "36 704 64"
+				"v" "76 704 64"
+			}
+			"material" "TOOLS/TOOLSNODRAW"
+			"uaxis" "[-1 0 0 51.2] 0.3125"
+			"vaxis" "[0 0 -1 12.8] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "391"
+			"plane" "(76 703 64) (36 703 64) (36 703 104)"
+			vertices_plus
+			{
+				"v" "76 703 64"
+				"v" "36 703 64"
+				"v" "36 703 104"
+				"v" "76 703 104"
+			}
+			"material" "MINECRAFT_ORIGINAL/METAL DOOR 2"
+			"uaxis" "[1 0 0 -115.2] 0.3125"
+			"vaxis" "[0 0 -1 76.8] 0.3125"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "0 180 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "0 180 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -15768]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}
